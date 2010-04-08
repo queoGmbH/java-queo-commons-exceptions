@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.queomedia</groupId>
 	<artifactId>queo-commons-exceptions</artifactId>
 	<name>queo commons exceptions</name>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<description>Exceptions used by queo commons and queo projects.</description>
 	<packaging>jar</packaging>
 
@@ -13,9 +14,9 @@
 	</issueManagement>
 
 	<scm>
-		<connection>scm:svn:http://skylla/queo_commons/java/queo-commons-exceptions/tags/queo-commons-exceptions-1.0.0</connection>
-		<developerConnection>scm:svn:http://skylla/queo_commons/java/queo-commons-exceptions/tags/queo-commons-exceptions-1.0.0</developerConnection>
-		<url>http://skylla/queo_commons/java/queo-commons-exceptions/tags/queo-commons-exceptions-1.0.0</url>
+		<connection>scm:svn:svn://skylla/queo_commons/java/queo-commons-exceptions/trunk</connection>
+		<developerConnection>scm:svn:svn://skylla/queo_commons/java/queo-commons-exceptions/trunk</developerConnection>
+		<url>http://skylla/queo_commons/java/queo-commons-exceptions/trunk</url>
 	</scm>
 	
 	<distributionManagement>
