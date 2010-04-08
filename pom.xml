@@ -4,7 +4,7 @@
 	<groupId>com.queomedia</groupId>
 	<artifactId>queo-commons-exceptions</artifactId>
 	<name>queo commons exceptions</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<description>Exceptions used by queo commons and queo projects.</description>
 	<packaging>jar</packaging>
 
@@ -18,6 +18,17 @@
 		<developerConnection>scm:svn:http://skylla/queo_commons/java/queo-commons-exceptions/trunk</developerConnection>
 		<url>http://skylla/queo_commons/java/queo-commons-exceptions/trunk</url>
 	</scm>
+	
+	<distributionManagement>
+		<repository>
+			<id>com.queomedia</id>
+			<url>http://skylla:8080/nexus/content/repositories/com.queomedia</url>
+		</repository>
+		<snapshotRepository>
+			<id>com.queomedia-snapshot</id>
+			<url>http://skylla:8080/nexus/content/repositories/com.queomedia-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<developers>
 		<developer>
@@ -26,14 +37,6 @@
 			<email>ralph.engelmann@queo-media.com</email>
 		</developer>
 	</developers>
-
-
-	<distributionManagement>
-		<snapshotRepository>
-			<id>com.queomedia-snapshot</id>
-			<url>http://skylla:8080/nexus/content/repositories/com.queomedia-snapshot</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
