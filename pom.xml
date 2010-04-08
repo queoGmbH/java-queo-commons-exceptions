@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.queomedia</groupId>
 	<artifactId>queo-commons-exceptions</artifactId>
 	<name>queo commons exceptions</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<description>Exceptions used by queo commons and queo projects.</description>
 	<packaging>jar</packaging>
 
@@ -14,10 +13,21 @@
 	</issueManagement>
 
 	<scm>
-		<connection>scm:svn:http://skylla/queo_commons/java/queo-commons-exceptions/trunk</connection>
-		<developerConnection>scm:svn:http://skylla/queo_commons/java/queo-commons-exceptions/trunk</developerConnection>
-		<url>http://skylla/queo_commons/java/queo-commons-exceptions/trunk</url>
+		<connection>scm:svn:svn://skylla/queo_commons/java/queo-commons-exceptions/tags/queo-commons-exceptions-1.0.0</connection>
+		<developerConnection>scm:svn:svn://skylla/queo_commons/java/queo-commons-exceptions/tags/queo-commons-exceptions-1.0.0</developerConnection>
+		<url>http://skylla/queo_commons/java/queo-commons-exceptions/tags/queo-commons-exceptions-1.0.0</url>
 	</scm>
+	
+	<distributionManagement>
+		<repository>
+			<id>com.queomedia</id>
+			<url>http://skylla:8080/nexus/content/repositories/com.queomedia</url>
+		</repository>
+		<snapshotRepository>
+			<id>com.queomedia-snapshot</id>
+			<url>http://skylla:8080/nexus/content/repositories/com.queomedia-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<developers>
 		<developer>
@@ -26,14 +36,6 @@
 			<email>ralph.engelmann@queo-media.com</email>
 		</developer>
 	</developers>
-
-
-	<distributionManagement>
-		<snapshotRepository>
-			<id>com.queomedia-snapshot</id>
-			<url>http://skylla:8080/nexus/content/repositories/com.queomedia-snapshot</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
