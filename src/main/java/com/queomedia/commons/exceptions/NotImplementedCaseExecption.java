@@ -4,13 +4,11 @@
 package com.queomedia.commons.exceptions;
 
 /**
- * The Class NotImplmentedCaseExecption.
+ * The Class NotImplementedCaseExecption.
  * 
  *
- * @deprecated use {@link NotImplementedCaseExecption}
  */
-@Deprecated
-public class NotImplmentedCaseExecption extends RuntimeException {
+public class NotImplementedCaseExecption extends RuntimeException {
 
     /** The Constant serialVersionUID. */
     private static final long serialVersionUID = 8423761710092209159L;
@@ -18,7 +16,7 @@ public class NotImplmentedCaseExecption extends RuntimeException {
     /**
      * Instantiates a new not implmented case execption.
      */
-    public NotImplmentedCaseExecption() {
+    public NotImplementedCaseExecption() {
         super();
     }
 
@@ -28,7 +26,7 @@ public class NotImplmentedCaseExecption extends RuntimeException {
      * @param message the message
      * @param cause the cause
      */
-    public NotImplmentedCaseExecption(final String message, final Throwable cause) {
+    public NotImplementedCaseExecption(final String message, final Throwable cause) {
         super(message, cause);
     }
 
@@ -37,7 +35,7 @@ public class NotImplmentedCaseExecption extends RuntimeException {
      * 
      * @param message the message
      */
-    public NotImplmentedCaseExecption(final String message) {
+    public NotImplementedCaseExecption(final String message) {
         super(message);
     }
 
@@ -46,7 +44,7 @@ public class NotImplmentedCaseExecption extends RuntimeException {
      * 
      * @param cause the cause
      */
-    public NotImplmentedCaseExecption(final Throwable cause) {
+    public NotImplementedCaseExecption(final Throwable cause) {
         super(cause);
     }
 
@@ -55,7 +53,7 @@ public class NotImplmentedCaseExecption extends RuntimeException {
      * 
      * @param enumCase the enum case
      */
-    public NotImplmentedCaseExecption(final Enum<?> enumCase) {
+    public NotImplementedCaseExecption(final Enum<?> enumCase) {
         this("case " + enumCase.name() + " is not implemented");
     }
 
