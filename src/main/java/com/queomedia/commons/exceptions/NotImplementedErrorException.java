@@ -9,7 +9,7 @@ package com.queomedia.commons.exceptions;
  * 
  * @author Engelmann
  */
-public class NotImplementedErrorException extends RuntimeException {
+public class NotImplementedErrorException extends NotImplementedException {
 
     /** The Constant serialVersionUID. */
     private static final long serialVersionUID = -3992412716404547639L;

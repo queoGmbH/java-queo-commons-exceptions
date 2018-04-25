@@ -10,7 +10,7 @@ package com.queomedia.commons.exceptions;
  * @deprecated use {@link NotImplementedCaseException} with "e" in "Implemented" and without twisted "ce" in "Exception".
  */
 @Deprecated
-public class NotImplmentedCaseExecption extends RuntimeException {
+public class NotImplmentedCaseExecption extends NotImplementedException {
 
     /** The Constant serialVersionUID. */
     private static final long serialVersionUID = 8423761710092209159L;
