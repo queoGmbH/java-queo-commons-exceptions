@@ -11,7 +11,7 @@
 	<scm>
 		<connection>scm:svn:https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunk/queo-commons-exceptions</connection>
 		<developerConnection>scm:svn:https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunk/queo-commons-exceptions</developerConnection>
-		<url>https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunkqueo-commons-exceptionse</url>
+		<url>https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunk/queo-commons-exceptionse</url>
 	</scm>
 
 	<distributionManagement>
