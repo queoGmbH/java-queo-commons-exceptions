@@ -7,7 +7,9 @@ package com.queomedia.commons.exceptions;
  * The Class NotImplementedCaseExecption.
  * 
  *
+ * @deprecated use {@link NotImplementedCaseException} without twisted "ce" in "Exception".
  */
+@Deprecated
 public class NotImplementedCaseExecption extends RuntimeException {
 
     /** The Constant serialVersionUID. */

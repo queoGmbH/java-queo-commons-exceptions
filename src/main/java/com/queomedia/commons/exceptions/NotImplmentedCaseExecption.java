@@ -7,7 +7,7 @@ package com.queomedia.commons.exceptions;
  * The Class NotImplmentedCaseExecption.
  * 
  *
- * @deprecated use {@link NotImplementedCaseExecption}
+ * @deprecated use {@link NotImplementedCaseException} with "e" in "Implemented" and without twisted "ce" in "Exception".
  */
 @Deprecated
 public class NotImplmentedCaseExecption extends RuntimeException {
