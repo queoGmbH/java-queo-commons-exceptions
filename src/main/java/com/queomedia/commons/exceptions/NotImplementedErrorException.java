@@ -23,6 +23,7 @@ public class NotImplementedErrorException extends RuntimeException {
      * Instantiates a new not implemented error.
      */
     public NotImplementedErrorException() {
+        super();
     }
 
     /**
