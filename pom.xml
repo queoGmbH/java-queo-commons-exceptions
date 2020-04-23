@@ -9,9 +9,14 @@
 
 
 	<scm>
-		<connection>scm:svn:https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunk/queo-commons-exceptions</connection>
-		<developerConnection>scm:svn:https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunk/queo-commons-exceptions</developerConnection>
-		<url>https://code.dev.queo-group.com/svn/queo_commons/java/queo-commons-exceptions/trunk/queo-commons-exceptionse</url>
+		<!--
+			a typical git urls for a queo project is:
+			https://gitlab.cloud.queo.org/queo.software/java/commons/PROJECT-NAME.git
+		-->
+		<connection>scm:git:https://gitlab.cloud.queo.org/queo.software/java/commons/queo-commons-exceptions.git</connection>
+		<developerConnection>scm:git:git@gitlab.cloud.queo.org:7836/queo.software/java/commons/queo-commons-exceptions.git</developerConnection>
+		<url>https://gitlab.cloud.queo.org/queo.software/java/commons/queo-commons-exceptions</url>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
