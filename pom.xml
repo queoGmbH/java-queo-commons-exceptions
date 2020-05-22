@@ -14,7 +14,7 @@
 			https://gitlab.cloud.queo.org/queo.software/java/commons/PROJECT-NAME.git
 		-->
 		<connection>scm:git:https://gitlab.cloud.queo.org/queo.software/java/commons/queo-commons-exceptions.git</connection>
-		<developerConnection>scm:git:git@gitlab.cloud.queo.org:7836/queo.software/java/commons/queo-commons-exceptions.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@gitlab.cloud.queo.org:7836/queo.software/java/commons/queo-commons-exceptions.git</developerConnection>
 		<url>https://gitlab.cloud.queo.org/queo.software/java/commons/queo-commons-exceptions</url>
 		<tag>HEAD</tag>
 	</scm>
