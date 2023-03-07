@@ -9,6 +9,7 @@
 	<name>queo commons exceptions</name>
 	<description>Exceptions used by queo commons and queo projects.</description>
 	
+	<url>https://github.com/queoGmbH/queo-commons-exceptions</url>
 	<inceptionYear>2009</inceptionYear>
 	
 	<organization>
