@@ -4,7 +4,7 @@
 	
 	<groupId>com.queomedia</groupId>
 	<artifactId>queo-commons-exceptions</artifactId>
-	<version>1.2.6-SNAPSHOT</version>
+	<version>1.2.7-SNAPSHOT</version>
 	
 	<name>queo commons exceptions</name>
 	<description>Exceptions used by queo commons and queo projects.</description>
