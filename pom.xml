@@ -4,7 +4,7 @@
 	
 	<groupId>com.queomedia</groupId>
 	<artifactId>queo-commons-exceptions</artifactId>
-	<version>1.2.8-SNAPSHOT</version>
+	<version>1.2.8</version>
 	
 	<name>queo commons exceptions</name>
 	<description>Exceptions used by queo commons and queo projects.</description>
@@ -43,7 +43,7 @@
 		<connection>scm:git:https://github.com/queoGmbH/java-queo-commons-exceptions.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/queoGmbH/java-queo-commons-exceptions.git</developerConnection>
 		<url>https://github.com/queoGmbH/java-queo-commons-exceptions</url>
-		<tag>HEAD</tag>
+		<tag>queo-commons-exceptions-1.2.8</tag>
 	</scm>
 
 	<properties>
